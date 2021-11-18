@@ -1,0 +1,54 @@
+{
+    "name": "i69social_admin",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.3",
+        "@testing-library/user-event": "^12.6.0",
+        "chart.js": "^2.9.4",
+        "firebase": "^8.2.3",
+        "js-base64": "^3.6.0",
+        "quickblox": "^2.13.10",
+        "react": "^17.0.1",
+        "react-chartjs-2": "^2.11.1",
+        "react-copy-to-clipboard": "^5.0.3",
+        "react-dom": "^17.0.1",
+        "react-redux": "^7.2.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.1",
+        "redux": "^4.0.5",
+        "redux-devtools-extension": "^2.13.8",
+        "redux-thunk": "^2.3.0",
+        "semantic-ui-css": "^2.4.1",
+        "semantic-ui-react": "^2.0.2",
+        "util": "^0.12.4",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "dev": "NODE_ENV=development react-scripts start",
+        "live": "NODE_ENV=production react-scripts start",
+        "start": "react-scripts start",
+        "build": "CI=False react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

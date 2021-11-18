@@ -1,0 +1,207 @@
+
+> i69social_admin@0.1.0 start /root/i69-admin-dev/i69social_admin
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/i69-admin-dev/i69social_admin/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/actions/fakeUsers/index.js
+  Line 5:9:    'prepareFromAPI' is defined but never used  no-unused-vars
+  Line 183:5:  Expected a default case                     default-case
+
+src/actions/session/index.js
+  Line 39:17:   'errorMessage' was used before it was defined  no-use-before-define
+  Line 40:39:   'errorMessage' was used before it was defined  no-use-before-define
+  Line 147:17:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 148:40:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 173:17:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 174:45:  'errorMessage' was used before it was defined  no-use-before-define
+
+src/components/auth/signIn.js
+  Line 2:25:  'Icon' is defined but never used    no-unused-vars
+  Line 2:37:  'Button' is defined but never used  no-unused-vars
+  Line 2:54:  'Input' is defined but never used   no-unused-vars
+
+src/components/chat/userList.js
+  Line 3:40:  'Header' is defined but never used             no-unused-vars
+  Line 4:8:   'ConfirmationPopup' is defined but never used  no-unused-vars
+  Line 6:10:  'connect' is defined but never used            no-unused-vars
+  Line 7:10:  'getToken' is defined but never used           no-unused-vars
+
+src/components/dashboard/worker.js
+  Line 278:65:   Using target="_blank" without rel="noreferrer" is a security risk: see https://html.spec.whatwg.org/multipage/links.html#link-type-noopener  react/jsx-no-target-blank
+  Line 284:75:   Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 287:107:  Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 312:65:   Using target="_blank" without rel="noreferrer" is a security risk: see https://html.spec.whatwg.org/multipage/links.html#link-type-noopener  react/jsx-no-target-blank
+  Line 318:75:   Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 321:107:  Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+
+src/components/errorMessage/index.js
+  Line 2:10:  'Icon' is defined but never used  no-unused-vars
+
+src/components/fakeUsers/index.js
+  Line 2:69:  'Input' is defined but never used  no-unused-vars
+
+src/components/imageUpload/index.js
+  Line 135:11:  'url' is assigned a value but never used  no-unused-vars
+
+src/components/imageUpload/photo.js
+  Line 39:20:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 47:20:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 55:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/mainMenu/index.js
+  Line 2:22:  'Dropdown' is defined but never used         no-unused-vars
+  Line 5:9:   'isAllowedRole' is defined but never used    no-unused-vars
+  Line 6:9:   'commonConstants' is defined but never used  no-unused-vars
+
+src/components/users/index.js
+  Line 3:33:     'Dropdown' is defined but never used                                               no-unused-vars
+  Line 3:74:     'Icon' is defined but never used                                                   no-unused-vars
+  Line 149:164:  Array.prototype.map() expects a value to be returned at the end of arrow function  array-callback-return
+  Line 151:33:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+  Line 154:33:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+  Line 158:29:   Expected a default case                                                            default-case
+  Line 183:78:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+
+src/components/workers/list.js
+  Line 3:19:   'Table' is defined but never used  no-unused-vars
+  Line 3:64:   'Input' is defined but never used  no-unused-vars
+  Line 3:94:   'Image' is defined but never used  no-unused-vars
+  Line 3:110:  'Popup' is defined but never used  no-unused-vars
+
+src/containers/dashboard/index.js
+  Line 56:94:  Unexpected mix of '&&' and '||'  no-mixed-operators
+  Line 64:24:  Unexpected mix of '&&' and '||'  no-mixed-operators
+
+src/containers/users/index.js
+  Line 36:62:  Array.prototype.find() expects a value to be returned at the end of arrow function  array-callback-return
+
+src/reducers/chat.js
+  Line 217:17:  'existingChat' is already defined  no-redeclare
+  Line 280:17:  'existingChat' is already defined  no-redeclare
+  Line 308:17:  'pathParts' is already defined     no-redeclare
+
+src/reducers/menu.js
+  Line 8:1:  Unexpected default export of anonymous function  import/no-anonymous-default-export
+
+src/reducers/users.js
+  Line 4:10:  'commonConstants' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+Killed
+npm ERR! code ELIFECYCLE
+npm ERR! errno 137
+npm ERR! i69social_admin@0.1.0 start: `react-scripts start`
+npm ERR! Exit status 137
+npm ERR! 
+npm ERR! Failed at the i69social_admin@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-01-23T16_46_37_963Z-debug.log
+
+> i69social_admin@0.1.0 start /root/i69-admin-dev/i69social_admin
+> react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://0.0.0.0:3000/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /root/i69-admin-dev/i69social_admin/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled with warnings.
+
+src/actions/fakeUsers/index.js
+  Line 5:9:    'prepareFromAPI' is defined but never used  no-unused-vars
+  Line 183:5:  Expected a default case                     default-case
+
+src/actions/session/index.js
+  Line 39:17:   'errorMessage' was used before it was defined  no-use-before-define
+  Line 40:39:   'errorMessage' was used before it was defined  no-use-before-define
+  Line 147:17:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 148:40:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 173:17:  'errorMessage' was used before it was defined  no-use-before-define
+  Line 174:45:  'errorMessage' was used before it was defined  no-use-before-define
+
+src/components/auth/signIn.js
+  Line 2:25:  'Icon' is defined but never used    no-unused-vars
+  Line 2:37:  'Button' is defined but never used  no-unused-vars
+  Line 2:54:  'Input' is defined but never used   no-unused-vars
+
+src/components/chat/userList.js
+  Line 3:40:  'Header' is defined but never used             no-unused-vars
+  Line 4:8:   'ConfirmationPopup' is defined but never used  no-unused-vars
+  Line 6:10:  'connect' is defined but never used            no-unused-vars
+  Line 7:10:  'getToken' is defined but never used           no-unused-vars
+
+src/components/dashboard/worker.js
+  Line 278:65:   Using target="_blank" without rel="noreferrer" is a security risk: see https://html.spec.whatwg.org/multipage/links.html#link-type-noopener  react/jsx-no-target-blank
+  Line 284:75:   Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 287:107:  Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 312:65:   Using target="_blank" without rel="noreferrer" is a security risk: see https://html.spec.whatwg.org/multipage/links.html#link-type-noopener  react/jsx-no-target-blank
+  Line 318:75:   Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+  Line 321:107:  Unexpected mix of '&&' and '||'                                                                                                              no-mixed-operators
+
+src/components/errorMessage/index.js
+  Line 2:10:  'Icon' is defined but never used  no-unused-vars
+
+src/components/fakeUsers/index.js
+  Line 2:69:  'Input' is defined but never used  no-unused-vars
+
+src/components/imageUpload/index.js
+  Line 135:11:  'url' is assigned a value but never used  no-unused-vars
+
+src/components/imageUpload/photo.js
+  Line 39:20:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 47:20:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 55:13:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/mainMenu/index.js
+  Line 2:22:  'Dropdown' is defined but never used         no-unused-vars
+  Line 5:9:   'isAllowedRole' is defined but never used    no-unused-vars
+  Line 6:9:   'commonConstants' is defined but never used  no-unused-vars
+
+src/components/users/index.js
+  Line 3:33:     'Dropdown' is defined but never used                                               no-unused-vars
+  Line 3:74:     'Icon' is defined but never used                                                   no-unused-vars
+  Line 149:164:  Array.prototype.map() expects a value to be returned at the end of arrow function  array-callback-return
+  Line 151:33:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+  Line 154:33:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+  Line 158:29:   Expected a default case                                                            default-case
+  Line 183:78:   Array.prototype.map() expects a return value from arrow function                   array-callback-return
+
+src/components/workers/list.js
+  Line 3:19:   'Table' is defined but never used  no-unused-vars
+  Line 3:64:   'Input' is defined but never used  no-unused-vars
+  Line 3:94:   'Image' is defined but never used  no-unused-vars
+  Line 3:110:  'Popup' is defined but never used  no-unused-vars
+
+src/containers/dashboard/index.js
+  Line 56:94:  Unexpected mix of '&&' and '||'  no-mixed-operators
+  Line 64:24:  Unexpected mix of '&&' and '||'  no-mixed-operators
+
+src/containers/users/index.js
+  Line 36:62:  Array.prototype.find() expects a value to be returned at the end of arrow function  array-callback-return
+
+src/reducers/chat.js
+  Line 217:17:  'existingChat' is already defined  no-redeclare
+  Line 280:17:  'existingChat' is already defined  no-redeclare
+  Line 308:17:  'pathParts' is already defined     no-redeclare
+
+src/reducers/menu.js
+  Line 8:1:  Unexpected default export of anonymous function  import/no-anonymous-default-export
+
+src/reducers/users.js
+  Line 4:10:  'commonConstants' is defined but never used  no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
